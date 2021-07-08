@@ -15,13 +15,16 @@
 
 ## 用法
 
-1. 引入d3、jquery、bootstrap 和 waveXdist.js、waveXdist.css
+1. 引入d3、jquery、bootstrap、bootstrap-slider 和 waveXdist.js、waveXdist.css
 ```javascript
     <script src="../src/jquery/jquery-3.5.1.min.js"></script>
     <script src="../src/d3/d3.min.js"></script>
     <script src="../src/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/bootstrap-slider-master/dist/bootstrap-slider.js"></script>
     <script src="../src/waveXdist.js"></script>
+    
     <link rel="stylesheet" href="../src/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/bootstrap-slider-master/dist/css/bootstrap-slider.css">
     <link href="../src/waveXdist.css" rel="stylesheet">
 ```
 2. waveXdist().dataPath()裡面填入物件,需要包含三個屬性data(xy檔案的路徑陣列)、az(sta_az.txt的路徑)、dist(sta_dist.txt的路徑),
